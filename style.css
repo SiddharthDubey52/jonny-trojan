@@ -78,6 +78,10 @@ p {
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+     background: #563434;
 }
 
 .header {
@@ -85,4 +89,53 @@ p {
 }
 .header .row{
     margin-top: 70px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+ width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* --------- footer --------  */
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color:#8a8a8a;
+
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.footer-col-1, .footer-col-2{
+    min-width: 250px;
+    margin-bottom: 20px;
+
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
 }
