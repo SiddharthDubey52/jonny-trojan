@@ -139,3 +139,15 @@ p {
     width: 180px;
     margin-bottom: 20px;
 }
+ul{
+    list-style: none;
+}
+.app-logo1 ,.app-logo2{
+    margin-top: 20px;
+}
+.app-logo1 img{
+    width: 140px;
+}
+.app-logo2 img{
+    width: 140px;
+}
